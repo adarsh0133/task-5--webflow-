@@ -21,8 +21,8 @@ body {
 }
 
 #cursor{
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     background-color: orangered;
     position: fixed;
@@ -30,7 +30,7 @@ body {
     z-index: 99;
     transform: translate(-50%,-50%);
     pointer-events: none;
-    transition: cubic-bezier(0.19, 1, 0.22, 1) .5s;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
 }
 
 #loading-pg{
