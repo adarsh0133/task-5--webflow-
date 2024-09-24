@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Gilroyy';
     src: url('Gilroy-Bold.ttf');
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gilroy';
+    font-family: 'Gilroyy';
 }
 
 html,
@@ -30,7 +30,7 @@ body {
     z-index: 99;
     transform: translate(-50%,-50%);
     pointer-events: none;
-    transition: cubic-bezier(0.19, 1, 0.22, 1) .2s;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .5s;
 }
 
 #loading-pg{
@@ -78,6 +78,7 @@ body {
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: white;
+    font-family: 'Gilroy';
     z-index: 9;
     border-radius: 10px;
     display: flex;
@@ -115,6 +116,7 @@ body {
     height: 80%;
     font-size: 20px;
     font-weight: 300;
+    font-family: 'Gilroy';
     border-radius: 10px;
     box-shadow: 4px 4px 0 #000;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
